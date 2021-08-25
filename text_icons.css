@@ -1,0 +1,81 @@
+body
+{
+    font-family: "Segoe UI";
+}
+#name
+{
+    font-family: 'Lucida Sans Regular';
+    font-size: 25px;
+    font-weight :bold;
+}
+#profession
+{
+    font-family :'Segoe UI';
+    font-size: 20px;
+    font-weight: bold;
+    color: rgb(0, 120, 212);
+}
+#info
+{
+    font-size: 14px;    
+}
+a
+{
+    color: black;
+    text-underline-position: above;
+}
+#heading
+{
+    font-size: 20px;
+    font-weight: bold;
+}
+#subHeading
+{
+    font-size: 17px;
+    font-weight: bold;
+}
+#smallHeading
+{
+    font-size: 20px;
+    font-weight: lighter;
+}
+#date
+{
+    font-size: 15px;
+    font-weight: lighter;
+    font-style: italic;
+    color: rgb(0, 120, 212);
+}
+
+@media (max-width: 800px) 
+{
+    #name
+    {
+        font-size: 20px;
+    }
+    #profession
+    {
+        font-size: 15px;
+    }
+    #info
+    {
+        font-size: 10px;
+    }
+    #heading
+    {
+        font-size: 15px;
+    }
+    #subHeading
+    {
+        font-size: 13px;
+    }
+    #smallHeading
+    {
+        font-size: 15px;
+    }
+    #date
+    {
+        font-size: 10px;
+
+    }
+}

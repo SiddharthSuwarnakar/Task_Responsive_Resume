@@ -1,0 +1,112 @@
+body
+{
+    margin: 10px;
+    background-color: rgb(245, 245, 245)
+}
+.main
+{
+    height: 900px;
+    width : 100%;
+    max-width: 1000px;
+    margin: 30px auto;
+    background-color: white
+
+/*    border: salmon;
+    border-style: dashed; */    
+}
+
+.top
+{
+    margin-left: 20px;
+    margin-right: 20px;
+    height: 200px;
+    width : auto;
+
+    display: flex;
+    justify-content: center;
+}
+
+.intro
+{
+    height: 200px;
+    width : 300px;
+    float : left; 
+}
+
+.contactDetails
+{
+    height: 200px;
+    width : 300px;
+    float : right; 
+}
+.photo
+{
+    margin: 0 auto;
+    height: 200px;
+    width : 200px; 
+}
+img
+{
+    height: 200px;
+    width: 200px;
+    border-radius: 100px;
+    border-color: rgb(0, 120, 212);
+    border-style: solid;
+    border-width: 5px;
+}
+.leftSide
+{
+    margin-left: 15px;
+    margin-right: 15px;
+    height: auto;
+    width : auto;
+    float : left; 
+}
+.rightSide
+{
+    margin-left: 15px;
+    margin-right: 15px;
+    height: auto;
+    width : 45%;
+    float : right;     
+}
+
+.languageName
+{
+    float: left;
+}
+
+
+.rating
+{
+    padding-left: 40px;
+    float: left;
+}
+
+@media (max-width: 800px) 
+{
+    .rating
+    {
+        padding-left: 20px;
+    }
+    img
+    {
+        height: 150px;
+        width: 150px;
+    }
+    .rightSide
+    {
+        float: left;
+    }
+}
+@media (max-width: 600px)
+{
+    img
+    {
+        display: none;
+    }
+    .main
+    {
+        height: auto;
+    }    
+} 
